@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* navbar start */
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 73px;
+    background-color: #fff;
+    margin-top: auto;
+    position: fixed;
+    z-index: 1111;
+}
+.list{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.right-list{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    color: white;
+}
+.log{
+    background-color: #F1F1F1;
+    border-radius: 14px;
+    padding: 8px 15px;
+}
+.str{
+    background-color: black;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 13px;
+
+    & a{
+        color: white;
+        font-size: 18px;
+        font-weight: 400;
+    }
+}
+
+/* hero section start */
+.img{
+    overflow: hidden;
+    
+
+}
+.hero-section{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.img img{
+    position: relative;
+}
+.first{
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 10px;
+    justify-content: center;
+    & form{
+        text-align: center;
+        
+
+        & select{
+            text-align: center;
+            
+        }
+    }
+    
+}
+.upper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #fff;
+    width: 500px;
+    height: 170px;
+    border-radius: 14px;
+    
+
+    & h2{
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+
+    }
+}
+
+h4{
+    background-color: transparent;
+    border-radius: 15px;
+    text-align: center;
+    vertical-align: bottom;
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   
+    border: 2px solid white;
+    color: white;
+    padding: 4px 8px;
+}
+select{
+    outline: none;
+    border: none;
+    background-color: #F1F1F1;
+    padding: 6.4px 14px;
+    border-radius: 10px;
+}
+input{
+    outline: none;
+    border: none;
+    opacity: 1;
+    color: rgb(44, 43, 43);
+    width: 300px;
+}
+.second input{
+    background-color: #ECECEC;
+    border-radius: 12px;
+    padding: 9px;
+    
+}
+
+.second{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+.second a{
+    background-color: #00EBC7;
+    color: black;
+    font-size: 19px;
+    border-radius: 12px;
+    padding: 6px 12px;
+    font-weight: 600;
+}
+
+
+/* hero section end */
+
+@media (max-width:500px) {
+    .fourth-hero{
+        flex-direction: column;
+    }
+}
+
+/* second hero section start*/
+.second-hero{
+    width: 100%;
+    height: 200px;
+    background-color:  #FDE24F;
+
+    & h3{
+        text-align: center;
+        padding: 14px 0;
+
+    }
+
+    & hero-img{
+        & img{
+            padding-left: 70px;
+        }
+    }
+    
+}
+
+
+
+
+/* second hero section end */
+
+
+
+
+/* third hero section start */
+
+.third-hero{
+    width: 100%;
+    height: 450px;
+    background-color: white;
+    position: relative;
+
+    & h3{
+        font-size: 26px;
+        padding: 25px 30px;
+    }
+}
+.link{
+    text-decoration: none;
+    color: black;
+    padding-top: 340px;
+    position: relative;
+    top: 30px;
+    font-size: 18px;
+    border-bottom: 1px solid black;
+}
+.hr{
+    width: 24%;
+    height: 80px;
+    border: 2px solid white;
+}
+.main-container{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    gap: 9.5rem;
+   
+    
+}
+button{
+    position: absolute;
+    bottom: 4%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 5px 10px;
+    border-radius: 14px;
+    background-color: #fff;
+    border: 1.7px solid black;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.bot-para{
+    color: ccd5ae;
+}
+.all-para{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+.pic{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   /* width: 50%; */
+}
+
+
+
+/* third hero section end */
+
+
+
+
+
+
+/* fourth hero section start */
+.fourth-hero{
+    width: 100%;
+    height: 450px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sm{
+    height: 40px;
+    width: 40px;
+}
+
+.Zelle{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+    /* padding-bottom: 2rem; */
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 6px 20px;
+}
+
+.buy{
+    
+    & h3{
+        font-size: 25px;
+        font-weight: 600;
+        padding: 30px;
+    }
+}
+.sell{
+    & h3{
+        font-size: 25px;
+        font-weight: 600;
+        padding: 30px;
+    }
+}
+.offer{
+    background-color: black;
+    color: white;
+    padding: 6px 14px;
+    border-radius: 12px;
+    position: relative;
+    font-size: 18px;
+    font-weight: 400;
+    top: 20px;
+    left: 155px;
+}
+
+/* fourth hero section end */
+
+
+
+
+/* fifth hero section start */
+.fifth-hero{
+    background-color: #CFBAFF;
+    width: 100%;
+    height: 300px;
+
+    & h2{
+        text-align: center;
+        font-size: 45px;
+        padding-top: 50px;
+        font-weight: 700;
+        padding-bottom: 50px;
+        
+        
+    }
+
+    & a{
+        background-color: black;
+        color: white;
+        padding: 7px 12px;
+        font-size: 18px;
+        font-weight: 400;
+        border-radius: 10px;
+        /* position: relative;
+        top: 30px;
+        left: 50%;
+        transform: translate(-50%,-50%); */
+
+    }
+}
+.cen{
+    display: flex;
+    justify-content: center;
+
+}
+/* fifth hero section end */
+
+
+
+
+
+
+/* footer start */
+footer{
+    width: 100%;
+    background-color: black;
+    height: 350px;
+    position: relative;
+}
+.main-footer{
+    
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    
+    padding-top: 50px;
+    
+}
+
+.foot1{
+    & h2{
+        font-size: 35px;
+        font-weight: 800;
+    }
+    & img{
+        color: white;
+    }
+}
+.div{
+    border-bottom: 0.6px solid silver;
+    width: 100%;
+    position: absolute;
+    top: 70%;
+    
+    
+}
+h6{
+    text-align: center;
+    color: white;
+    font-size: 10px;
+}
+.hero-img{
+    display: flex;
+    justify-content: center;
+}
+.last{
+    width: 95%;
+    margin:  auto;
+    position: relative;
+    top: 65px;
+}
+
+
+
+/* footer end */
+
+
+
